@@ -1,7 +1,7 @@
 
-##give me the beans
+//give me the beans
 
-##the BEANSSSSSSSSSSSS
+//the BEANSSSSSSSSSSSS
 
 class A
 {
