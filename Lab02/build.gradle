@@ -1,24 +1,20 @@
-plugins
-{
+plugins {
 	id 'application'
 }
 
-repositories
-{
+repositories {
 	mavenCentral()
 }
 
-dependencies
-{
-	
+dependencies {
+	implementation 'org.apache.commons:commons-csv:1.6'
 }
 
 task application {
-	mainClassName = 'SimpleTest'
+	mainClassName = 'CSVDemo'
 }
 
-run
-{
+run {
 	args = ['TestArgument']
 }
 
